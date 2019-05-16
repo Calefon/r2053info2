@@ -1,0 +1,260 @@
+19:53:07 **** Incremental Build of configuration Debug for project asd ****
+make all 
+Building file: ../src/INFO2_LIB.c
+Invoking: GCC C Compiler
+gcc -I"/home/ezequiel/LPCXpresso/workspace/asd/inc" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/INFO2_LIB.d" -MT"src/INFO2_LIB.o" -o "src/INFO2_LIB.o" "../src/INFO2_LIB.c"
+../src/INFO2_LIB.c:15:31: fatal error: cr_section_macros.h: No existe el archivo o el directorio
+ #include <cr_section_macros.h>
+                               ^
+src/subdir.mk:24: fallo en las instrucciones para el objetivo 'src/INFO2_LIB.o'
+compilation terminated.
+make: *** [src/INFO2_LIB.o] Error 1
+17:02:45 **** Build of configuration Debug for project LPC-L1 ****
+make -r all 
+Building file: ../src/INFO2_LIB.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_io_map.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_timer.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/lpc_types.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/registros.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_io.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_timer.h" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/INFO2_LIB.d" -MT"src/INFO2_LIB.o" -MT"src/INFO2_LIB.d" -o "src/INFO2_LIB.o" "../src/INFO2_LIB.c"
+../src/INFO2_LIB.c: In function 'main':
+../src/INFO2_LIB.c:35:21: warning: variable 'in2' set but not used [-Wunused-but-set-variable]
+     int8_t in1 = 0, in2 = 0;
+                     ^
+../src/INFO2_LIB.c:35:12: warning: variable 'in1' set but not used [-Wunused-but-set-variable]
+     int8_t in1 = 0, in2 = 0;
+            ^
+../src/INFO2_LIB.c:34:46: warning: variable 'final3' set but not used [-Wunused-but-set-variable]
+     int8_t final0 = 0, final1 =0, final2 = 0,final3 = 0;
+                                              ^
+../src/INFO2_LIB.c:34:35: warning: variable 'final2' set but not used [-Wunused-but-set-variable]
+     int8_t final0 = 0, final1 =0, final2 = 0,final3 = 0;
+                                   ^
+../src/INFO2_LIB.c:34:24: warning: variable 'final1' set but not used [-Wunused-but-set-variable]
+     int8_t final0 = 0, final1 =0, final2 = 0,final3 = 0;
+                        ^
+Finished building: ../src/INFO2_LIB.c
+ 
+Building file: ../src/LPC-L1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_io_map.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_timer.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/lpc_types.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/registros.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_io.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_timer.h" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/LPC-L1.d" -MT"src/LPC-L1.o" -MT"src/LPC-L1.d" -o "src/LPC-L1.o" "../src/LPC-L1.c"
+Finished building: ../src/LPC-L1.c
+ 
+Building file: ../src/cr_startup_lpc175x_6x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_io_map.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_timer.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/lpc_types.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/registros.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_io.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_timer.h" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/cr_startup_lpc175x_6x.d" -MT"src/cr_startup_lpc175x_6x.o" -MT"src/cr_startup_lpc175x_6x.d" -o "src/cr_startup_lpc175x_6x.o" "../src/cr_startup_lpc175x_6x.c"
+Finished building: ../src/cr_startup_lpc175x_6x.c
+ 
+Building file: ../src/crp.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_io_map.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_timer.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/lpc_types.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/registros.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_io.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_timer.h" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/crp.d" -MT"src/crp.o" -MT"src/crp.d" -o "src/crp.o" "../src/crp.c"
+Finished building: ../src/crp.c
+ 
+Building target: LPC-L1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/ezequiel/LPCXpresso/workspace/LPC-L1/lib" -Xlinker -Map="LPC-L1.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "LPC-L1_Debug.ld" -o "LPC-L1.axf"  ./src/INFO2_LIB.o ./src/LPC-L1.o ./src/cr_startup_lpc175x_6x.o ./src/crp.o   -lLIBRE
+./src/LPC-L1.o: In function `main':
+Memory region         Used Size  Region Size  %age Used
+/home/ezequiel/LPCXpresso/workspace/LPC-L1/Debug/../src/LPC-L1.c:23: multiple definition of `main'
+       MFlash512:        4072 B       512 KB      0.78%
+./src/INFO2_LIB.o:/home/ezequiel/LPCXpresso/workspace/LPC-L1/Debug/../src/INFO2_LIB.c:30: first defined here
+        RamLoc32:         364 B        32 KB      1.11%
+collect2: error: ld returned 1 exit status
+        RamAHB32:          0 GB        32 KB      0.00%
+make: *** [LPC-L1.axf] Error 1
+makefile:30: fallo en las instrucciones para el objetivo 'LPC-L1.axf'
+17:03:05 **** Incremental Build of configuration Debug for project LPC-L1 ****
+make -r all 
+Building target: LPC-L1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/ezequiel/LPCXpresso/workspace/LPC-L1/lib" -Xlinker -Map="LPC-L1.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "LPC-L1_Debug.ld" -o "LPC-L1.axf"  ./src/INFO2_LIB.o ./src/cr_startup_lpc175x_6x.o ./src/crp.o   -lLIBRE
+Memory region         Used Size  Region Size  %age Used
+       MFlash512:        4076 B       512 KB      0.78%
+        RamLoc32:         364 B        32 KB      1.11%
+        RamAHB32:          0 GB        32 KB      0.00%
+Finished building target: LPC-L1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "LPC-L1.axf"; # arm-none-eabi-objcopy -v -O binary "LPC-L1.axf" "LPC-L1.bin" ; # checksum -p LPC1769 -d "LPC-L1.bin";
+   text	   data	    bss	    dec	    hex	filename
+   4072	      4	    360	   4436	   1154	LPC-L1.axf
+ 
+19:30:45 **** Incremental Build of configuration Debug for project LPC-L1 ****
+make -r all 
+Building file: ../src/INFO2_LIB.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_io_map.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_timer.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/lpc_types.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/registros.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_io.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_timer.h" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/INFO2_LIB.d" -MT"src/INFO2_LIB.o" -MT"src/INFO2_LIB.d" -o "src/INFO2_LIB.o" "../src/INFO2_LIB.c"
+../src/INFO2_LIB.c:65:1: warning: "/*" within comment [-Wcomment]
+ /*
+ ^
+Finished building: ../src/INFO2_LIB.c
+ 
+Building file: ../src/inicializar.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_io_map.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_timer.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/lpc_types.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/registros.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_io.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_timer.h" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/inicializar.d" -MT"src/inicializar.o" -MT"src/inicializar.d" -o "src/inicializar.o" "../src/inicializar.c"
+../src/inicializar.c: In function 'inicializar':
+../src/inicializar.c:27:3: warning: implicit declaration of function 'Relay' [-Wimplicit-function-declaration]
+   Relay(MCIERRE, ON);
+   ^
+../src/inicializar.c:42:3: error: expected ';' before '}' token
+src/subdir.mk:30: fallo en las instrucciones para el objetivo 'src/inicializar.o'
+   }
+   ^
+make: *** [src/inicializar.o] Error 1
+19:31:57 **** Incremental Build of configuration Debug for project LPC-L1 ****
+make -r all 
+Building file: ../src/INFO2_LIB.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_io_map.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_timer.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/lpc_types.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/registros.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_io.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_timer.h" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/INFO2_LIB.d" -MT"src/INFO2_LIB.o" -MT"src/INFO2_LIB.d" -o "src/INFO2_LIB.o" "../src/INFO2_LIB.c"
+Finished building: ../src/INFO2_LIB.c
+ 
+Building file: ../src/inicializar.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_io_map.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_timer.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/lpc_types.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/registros.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_io.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_timer.h" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/inicializar.d" -MT"src/inicializar.o" -MT"src/inicializar.d" -o "src/inicializar.o" "../src/inicializar.c"
+../src/inicializar.c: In function 'inicializar':
+../src/inicializar.c:27:3: warning: implicit declaration of function 'Relay' [-Wimplicit-function-declaration]
+   Relay(MCIERRE, ON);
+   ^
+../src/inicializar.c:29:10: warning: 'estado' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   return estado;
+          ^
+Finished building: ../src/inicializar.c
+ 
+Building file: ../src/mEST.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_io_map.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_timer.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/lpc_types.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/registros.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_io.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_timer.h" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/mEST.d" -MT"src/mEST.o" -MT"src/mEST.d" -o "src/mEST.o" "../src/mEST.c"
+In file included from ../src/mEST.c:29:0:
+/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/inicializar.h:1:1: error: expected ';', identifier or '(' before 'int'
+ int inicializar(void);
+ ^
+../src/mEST.c: In function 'main':
+../src/mEST.c:49:8: warning: implicit declaration of function 'Relay' [-Wimplicit-function-declaration]
+        Relay(MAPERT,ON);
+        ^
+make: *** [src/mEST.o] Error 1
+src/subdir.mk:30: fallo en las instrucciones para el objetivo 'src/mEST.o'
+19:32:43 **** Incremental Build of configuration Debug for project LPC-L1 ****
+make -r all 
+Building file: ../src/mEST.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_io_map.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_timer.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/lpc_types.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/registros.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_io.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_timer.h" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/mEST.d" -MT"src/mEST.o" -MT"src/mEST.d" -o "src/mEST.o" "../src/mEST.c"
+../src/mEST.c: In function 'main':
+../src/mEST.c:49:8: warning: implicit declaration of function 'Relay' [-Wimplicit-function-declaration]
+        Relay(MAPERT,ON);
+        ^
+Finished building: ../src/mEST.c
+ 
+Building target: LPC-L1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/ezequiel/LPCXpresso/workspace/LPC-L1/lib" -Xlinker -Map="LPC-L1.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "LPC-L1_Debug.ld" -o "LPC-L1.axf"  ./src/INFO2_LIB.o ./src/cr_startup_lpc175x_6x.o ./src/crp.o ./src/inicializar.o ./src/mEST.o   -lLIBRE
+Memory region         Used Size  Region Size  %age Used
+./src/inicializar.o: In function `inicializar':
+/home/ezequiel/LPCXpresso/workspace/LPC-L1/Debug/../src/inicializar.c:27: undefined reference to `Relay'
+       MFlash512:        4364 B       512 KB      0.83%
+/home/ezequiel/LPCXpresso/workspace/LPC-L1/Debug/../src/inicializar.c:34: undefined reference to `Relay'
+        RamLoc32:         360 B        32 KB      1.10%
+/home/ezequiel/LPCXpresso/workspace/LPC-L1/Debug/../src/inicializar.c:39: undefined reference to `Relay'
+/home/ezequiel/LPCXpresso/workspace/LPC-L1/Debug/../src/inicializar.c:41: undefined reference to `Relay'
+/home/ezequiel/LPCXpresso/workspace/LPC-L1/Debug/../src/inicializar.c:44: undefined reference to `Relay'
+./src/inicializar.o:/home/ezequiel/LPCXpresso/workspace/LPC-L1/Debug/../src/inicializar.c:50: more undefined references to `Relay' follow
+        RamAHB32:          0 GB        32 KB      0.00%
+collect2: error: ld returned 1 exit status
+makefile:30: fallo en las instrucciones para el objetivo 'LPC-L1.axf'
+make: *** [LPC-L1.axf] Error 1
+19:33:50 **** Incremental Build of configuration Debug for project LPC-L1 ****
+make -r all 
+Building file: ../src/inicializar.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_io_map.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_timer.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/lpc_types.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/registros.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_io.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_timer.h" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/inicializar.d" -MT"src/inicializar.o" -MT"src/inicializar.d" -o "src/inicializar.o" "../src/inicializar.c"
+../src/inicializar.c: In function 'inicializar':
+../src/inicializar.c:29:10: warning: 'estado' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   return estado;
+          ^
+Finished building: ../src/inicializar.c
+ 
+Building file: ../src/mEST.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_io_map.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_timer.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/lpc_types.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/registros.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_io.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_timer.h" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/mEST.d" -MT"src/mEST.o" -MT"src/mEST.d" -o "src/mEST.o" "../src/mEST.c"
+Finished building: ../src/mEST.c
+ 
+Building target: LPC-L1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/ezequiel/LPCXpresso/workspace/LPC-L1/lib" -Xlinker -Map="LPC-L1.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "LPC-L1_Debug.ld" -o "LPC-L1.axf"  ./src/INFO2_LIB.o ./src/cr_startup_lpc175x_6x.o ./src/crp.o ./src/inicializar.o ./src/mEST.o   -lLIBRE
+Memory region         Used Size  Region Size  %age Used
+       MFlash512:        4424 B       512 KB      0.84%
+        RamLoc32:         360 B        32 KB      1.10%
+        RamAHB32:          0 GB        32 KB      0.00%
+Finished building target: LPC-L1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "LPC-L1.axf"; # arm-none-eabi-objcopy -v -O binary "LPC-L1.axf" "LPC-L1.bin" ; # checksum -p LPC1769 -d "LPC-L1.bin";
+   text	   data	    bss	    dec	    hex	filename
+   4420	      4	    356	   4780	   12ac	LPC-L1.axf
+ 
+19:37:41 **** Incremental Build of configuration Debug for project LPC-L1 ****
+make -r all 
+Building file: ../src/inicializar.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_io_map.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_timer.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/lpc_types.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/registros.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_io.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_timer.h" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/inicializar.d" -MT"src/inicializar.o" -MT"src/inicializar.d" -o "src/inicializar.o" "../src/inicializar.c"
+Finished building: ../src/inicializar.c
+ 
+Building target: LPC-L1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/ezequiel/LPCXpresso/workspace/LPC-L1/lib" -Xlinker -Map="LPC-L1.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "LPC-L1_Debug.ld" -o "LPC-L1.axf"  ./src/INFO2_LIB.o ./src/cr_startup_lpc175x_6x.o ./src/crp.o ./src/inicializar.o ./src/mEST.o   -lLIBRE
+Memory region         Used Size  Region Size  %age Used
+       MFlash512:        4440 B       512 KB      0.85%
+        RamLoc32:         360 B        32 KB      1.10%
+        RamAHB32:          0 GB        32 KB      0.00%
+Finished building target: LPC-L1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "LPC-L1.axf"; # arm-none-eabi-objcopy -v -O binary "LPC-L1.axf" "LPC-L1.bin" ; # checksum -p LPC1769 -d "LPC-L1.bin";
+   text	   data	    bss	    dec	    hex	filename
+   4436	      4	    356	   4796	   12bc	LPC-L1.axf
+ 
+19:46:11 **** Clean-only build of configuration Debug for project LPC-L1 ****
+make -r clean 
+rm -rf  ./src/INFO2_LIB.o ./src/cr_startup_lpc175x_6x.o ./src/crp.o ./src/inicializar.o ./src/mEST.o  ./src/INFO2_LIB.d ./src/cr_startup_lpc175x_6x.d ./src/crp.d ./src/inicializar.d ./src/mEST.d  LPC-L1.axf
+ 
+19:46:13 **** Build of configuration Debug for project LPC-L1 ****
+make -r all 
+Building file: ../src/INFO2_LIB.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_io_map.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_timer.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/lpc_types.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/registros.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_io.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_timer.h" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/INFO2_LIB.d" -MT"src/INFO2_LIB.o" -MT"src/INFO2_LIB.d" -o "src/INFO2_LIB.o" "../src/INFO2_LIB.c"
+Finished building: ../src/INFO2_LIB.c
+ 
+Building file: ../src/cr_startup_lpc175x_6x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_io_map.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_timer.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/lpc_types.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/registros.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_io.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_timer.h" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/cr_startup_lpc175x_6x.d" -MT"src/cr_startup_lpc175x_6x.o" -MT"src/cr_startup_lpc175x_6x.d" -o "src/cr_startup_lpc175x_6x.o" "../src/cr_startup_lpc175x_6x.c"
+Finished building: ../src/cr_startup_lpc175x_6x.c
+ 
+Building file: ../src/crp.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_io_map.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_timer.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/lpc_types.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/registros.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_io.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_timer.h" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/crp.d" -MT"src/crp.o" -MT"src/crp.d" -o "src/crp.o" "../src/crp.c"
+Finished building: ../src/crp.c
+ 
+Building file: ../src/inicializar.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_io_map.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_timer.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/lpc_types.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/registros.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_io.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_timer.h" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/inicializar.d" -MT"src/inicializar.o" -MT"src/inicializar.d" -o "src/inicializar.o" "../src/inicializar.c"
+Finished building: ../src/inicializar.c
+ 
+Building file: ../src/mEST.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_io_map.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_timer.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/lpc_types.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/registros.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_io.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_timer.h" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/mEST.d" -MT"src/mEST.o" -MT"src/mEST.d" -o "src/mEST.o" "../src/mEST.c"
+Finished building: ../src/mEST.c
+ 
+Building target: LPC-L1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/ezequiel/LPCXpresso/workspace/LPC-L1/lib" -Xlinker -Map="LPC-L1.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "LPC-L1_Debug.ld" -o "LPC-L1.axf"  ./src/INFO2_LIB.o ./src/cr_startup_lpc175x_6x.o ./src/crp.o ./src/inicializar.o ./src/mEST.o   -lLIBRE
+Memory region         Used Size  Region Size  %age Used
+       MFlash512:        4440 B       512 KB      0.85%
+        RamLoc32:         360 B        32 KB      1.10%
+        RamAHB32:          0 GB        32 KB      0.00%
+Finished building target: LPC-L1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "LPC-L1.axf"; # arm-none-eabi-objcopy -v -O binary "LPC-L1.axf" "LPC-L1.bin" ; # checksum -p LPC1769 -d "LPC-L1.bin";
+   text	   data	    bss	    dec	    hex	filename
+   4436	      4	    356	   4796	   12bc	LPC-L1.axf
+ 

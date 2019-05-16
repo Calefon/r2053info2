@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;LPC-L1/src/func.c&apos; to &apos;inicializar.c&apos;" description="Rename resource &apos;func.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/func.c" name="inicializar.c" stamp="1558045815484" updateReferences="true"/>
+</session>

@@ -1,0 +1,65 @@
+#ifdef __USE_CMSIS
+#include "LPC17xx.h"
+#endif
+
+#include <cr_section_macros.h>
+
+#include <stdio.h>
+
+#include <xyz_timer.h>
+
+#include <xyz_io.h>
+
+#include <xyz_base.h>
+
+enum {MCIERRE = 1, MAPERT = 2, SENOUT = 1, SENIN = 2, FC_CERR = 3, FC_AB = 4};
+enum {CERRADO = 0, ABRIENDO = 1, ABIERTO = 2, CERRANDO = 3};
+
+int inicializar(void){
+	int estado;
+
+    Inicializar_io();
+
+    InitTimer();
+
+	if(!Teclado(FC_CERR) && !(Dig_Inputs(SENOUT) || Dig_Inputs(SENIN)) ){
+		estado = CERRANDO;
+		Relays(MCIERRE, ON);
+	}else{
+		return estado;
+	}
+	while(1){
+		if(Teclado(FC_CERR) && (estado == CERRANDO)){
+			estado = CERRADO;
+			Relays(MCIERRE, OFF);
+			return estado;
+		}
+		if(Dig_Inputs(SENOUT) || Dig_Inputs(SENIN)){
+			estado = ABRIENDO;
+			Relays(MCIERRE, OFF);
+			set_timer(0,10);
+			Relays(MAPERT, ON);
+		}
+		if( ( Teclado(FC_AB) || is_timer_end(0) ) && (estado == ABRIENDO) ){
+			Relays(MAPERT, OFF);
+			if(Teclado(FC_AB)){
+				estado = ABIERTO;
+				}
+			if(is_timer_end(0)){
+				estado= CERRANDO;
+				Relays(MCIERRE, ON);
+			}
+		}
+		if(Teclado(FC_AB) && (estado == ABIERTO)){
+
+						if(Dig_Inputs(SENOUT) || Dig_Inputs(SENIN)){
+							set_timer(1,5);
+						}
+						if(is_timer_end(1)){
+							estado = CERRANDO;
+							Relays(MCIERRE, ON);
+						}
+		}
+
+	}
+}

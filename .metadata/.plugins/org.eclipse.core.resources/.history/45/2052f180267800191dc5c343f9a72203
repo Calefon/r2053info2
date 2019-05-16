@@ -1,0 +1,60 @@
+/*
+===============================================================================
+ Name        : INFO2_LIB.c
+ Author      : $(author)
+ Version     :
+ Copyright   : $(copyright)
+ Description : main definition
+===============================================================================
+*/
+
+#ifdef __USE_CMSIS
+#include "LPC17xx.h"
+#endif
+
+#include <cr_section_macros.h>
+
+#include <stdio.h>
+
+#include <xyz_timer.h>
+
+#include <xyz_io.h>
+
+#include <xyz_base.h>
+
+enum {MCIERRE = 1, MAPERT = 2, SENOUT = 1, SENIN = 2, FC_CERR = 3, FC_AB = 4};
+enum {CERRADO = 0, ABRIENDO = 1, ABIERTO = 2, CERRANDO = 3};
+
+#include "inicializar.h"
+
+int main(void)
+{
+	int estado;
+
+    Inicializar_io();
+
+    InitTimer();
+
+    estado = Inicializar();
+
+
+    while(1)
+    {
+    	switch(estado){
+    	case CERRADO:
+
+    		break;
+    	case CERRANDO:
+    		break;
+    	case ABIERTO:
+    		break;
+    	case ABRIENDO:
+    		break;
+    	default:
+    		estado = inicializar();
+    		break;
+    	}
+    }
+    return 0 ;
+}
+

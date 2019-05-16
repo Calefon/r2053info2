@@ -1,0 +1,150 @@
+!SESSION 2019-05-15 19:23:51.505 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_AR
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2019-05-15 19:24:11.644
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
+
+!ENTRY org.eclipse.ui 4 4 2019-05-15 19:24:11.646
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
+
+!ENTRY org.eclipse.ui.browser 2 0 2019-05-15 19:24:11.892
+!MESSAGE Internal browser is not available: No more handles [Unknown Mozilla path (MOZILLA_FIVE_HOME not set)]
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2019-05-15 19:28:29.876
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/sdk/plugins/org.eclipse.sdk_3.8.1.dist.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2019-05-15 19:28:29.920
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/sdk/features/org.eclipse.jdt.source_3.8.1.dist-8-8nFqrFFgQGJ.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2019-05-15 19:28:29.921
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/sdk/features/org.eclipse.rcp.source_3.8.1.dist-92A7GODFSNQBG.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2019-05-15 19:28:29.922
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/sdk/features/org.eclipse.pde.source_3.8.1.dist-7c7vFiyFALX8A.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2019-05-15 19:28:29.923
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/sdk/features/org.eclipse.equinox.p2.user.ui.source_2.2.0.dist-62DG8ltBaLdNsDyHEh7m9FbLOK8.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2019-05-15 19:28:29.924
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/sdk/features/org.eclipse.pde_3.8.1.dist-7c7vFiyFALX8A.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2019-05-15 19:28:29.931
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/sdk/features/org.eclipse.cvs.source_1.3.200.dist-7B79FJJ9exZ_.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2019-05-15 19:28:29.932
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/sdk/features/org.eclipse.help.source_1.4.1.dist-8v7oFRvFCmSPZkILLj597H.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2019-05-15 19:28:29.932
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/sdk/features/org.eclipse.sdk_3.8.1.dist-7Q85DOBoMDElVYJXaFKz0j0bF6Yroz0OX2R6IKH-D5eOg.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2019-05-15 19:28:29.933
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/sdk/features/org.eclipse.platform.source_3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9.
+!SESSION 2019-05-15 19:30:06.083 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_AR
+Command-line arguments:  -os linux -ws gtk -arch x86 -data file:/home/ezequiel/LPCXpresso/workspace/
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2019-05-15 19:30:07.960
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/sdk/plugins/org.eclipse.sdk_3.8.1.dist.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2019-05-15 19:30:07.960
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/sdk/features/org.eclipse.jdt.source_3.8.1.dist-8-8nFqrFFgQGJ.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2019-05-15 19:30:07.960
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/sdk/features/org.eclipse.rcp.source_3.8.1.dist-92A7GODFSNQBG.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2019-05-15 19:30:07.960
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/sdk/features/org.eclipse.pde.source_3.8.1.dist-7c7vFiyFALX8A.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2019-05-15 19:30:07.960
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/sdk/features/org.eclipse.equinox.p2.user.ui.source_2.2.0.dist-62DG8ltBaLdNsDyHEh7m9FbLOK8.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2019-05-15 19:30:07.960
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/sdk/features/org.eclipse.pde_3.8.1.dist-7c7vFiyFALX8A.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2019-05-15 19:30:07.960
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/sdk/features/org.eclipse.cvs.source_1.3.200.dist-7B79FJJ9exZ_.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2019-05-15 19:30:07.961
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/sdk/features/org.eclipse.help.source_1.4.1.dist-8v7oFRvFCmSPZkILLj597H.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2019-05-15 19:30:07.961
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/sdk/features/org.eclipse.sdk_3.8.1.dist-7Q85DOBoMDElVYJXaFKz0j0bF6Yroz0OX2R6IKH-D5eOg.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2019-05-15 19:30:07.961
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/sdk/features/org.eclipse.platform.source_3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9.
+
+!ENTRY org.eclipse.ui 4 4 2019-05-15 19:30:11.002
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
+
+!ENTRY org.eclipse.ui 4 4 2019-05-15 19:30:11.004
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
+
+!ENTRY org.eclipse.ui.browser 2 0 2019-05-15 19:30:11.127
+!MESSAGE Internal browser is not available: No more handles [Unknown Mozilla path (MOZILLA_FIVE_HOME not set)]
+!SESSION 2019-05-15 19:34:24.943 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_AR
+Command-line arguments:  -os linux -ws gtk -arch x86 -data file:/home/ezequiel/LPCXpresso/workspace/
+
+!ENTRY org.eclipse.ui 4 4 2019-05-15 19:34:29.132
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
+
+!ENTRY org.eclipse.ui 4 4 2019-05-15 19:34:29.135
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
+
+!ENTRY org.eclipse.ui.browser 2 0 2019-05-15 19:34:29.269
+!MESSAGE Internal browser is not available: No more handles [Unknown Mozilla path (MOZILLA_FIVE_HOME not set)]
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-05-15 19:36:12.735
+!MESSAGE Indexed 'LPC L1' (0 sources, 0 headers) in 0,002 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-05-15 19:42:49.233
+!MESSAGE Indexed 'LPC L1' (3 sources, 28 headers) in 0,236 sec: 919 declarations; 1.495 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-05-15 19:45:35.942
+!MESSAGE Indexed 'asd' (1 sources, 37 headers) in 0,211 sec: 1.041 declarations; 1.879 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-05-15 19:47:10.894
+!MESSAGE Indexed 'asd' (3 sources, 28 headers) in 0,146 sec: 919 declarations; 1.495 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+!SESSION 2019-05-16 16:58:16.584 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_AR
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2019-05-16 16:58:29.991
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
+
+!ENTRY org.eclipse.ui 4 4 2019-05-16 16:58:30.028
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
+
+!ENTRY org.eclipse.ui.browser 2 0 2019-05-16 16:58:30.541
+!MESSAGE Internal browser is not available: No more handles [Unknown Mozilla path (MOZILLA_FIVE_HOME not set)]
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-05-16 17:00:44.206
+!MESSAGE Indexed 'LPC-L1' (3 sources, 6 headers) in 0,736 sec: 475 declarations; 292 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+!SESSION 2019-05-16 19:44:38.124 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_AR
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2019-05-16 19:44:56.160
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
+
+!ENTRY org.eclipse.ui 4 4 2019-05-16 19:44:56.199
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
+
+!ENTRY org.eclipse.ui.browser 2 0 2019-05-16 19:44:57.365
+!MESSAGE Internal browser is not available: No more handles [Unknown Mozilla path (MOZILLA_FIVE_HOME not set)]

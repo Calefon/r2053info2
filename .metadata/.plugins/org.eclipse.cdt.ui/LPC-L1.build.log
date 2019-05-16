@@ -1,0 +1,45 @@
+19:46:13 **** Build of configuration Debug for project LPC-L1 ****
+make -r all 
+Building file: ../src/INFO2_LIB.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_io_map.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_timer.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/lpc_types.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/registros.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_io.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_timer.h" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/INFO2_LIB.d" -MT"src/INFO2_LIB.o" -MT"src/INFO2_LIB.d" -o "src/INFO2_LIB.o" "../src/INFO2_LIB.c"
+Finished building: ../src/INFO2_LIB.c
+ 
+Building file: ../src/cr_startup_lpc175x_6x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_io_map.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_timer.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/lpc_types.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/registros.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_io.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_timer.h" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/cr_startup_lpc175x_6x.d" -MT"src/cr_startup_lpc175x_6x.o" -MT"src/cr_startup_lpc175x_6x.d" -o "src/cr_startup_lpc175x_6x.o" "../src/cr_startup_lpc175x_6x.c"
+Finished building: ../src/cr_startup_lpc175x_6x.c
+ 
+Building file: ../src/crp.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_io_map.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_timer.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/lpc_types.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/registros.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_io.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_timer.h" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/crp.d" -MT"src/crp.o" -MT"src/crp.d" -o "src/crp.o" "../src/crp.c"
+Finished building: ../src/crp.c
+ 
+Building file: ../src/inicializar.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_io_map.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_timer.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/lpc_types.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/registros.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_io.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_timer.h" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/inicializar.d" -MT"src/inicializar.o" -MT"src/inicializar.d" -o "src/inicializar.o" "../src/inicializar.c"
+Finished building: ../src/inicializar.c
+ 
+Building file: ../src/mEST.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_io_map.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/abc_timer.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/lpc_types.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/registros.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_base.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_io.h" -include"/home/ezequiel/LPCXpresso/workspace/LPC-L1/inc/xyz_timer.h" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/mEST.d" -MT"src/mEST.o" -MT"src/mEST.d" -o "src/mEST.o" "../src/mEST.c"
+Finished building: ../src/mEST.c
+ 
+Building target: LPC-L1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/ezequiel/LPCXpresso/workspace/LPC-L1/lib" -Xlinker -Map="LPC-L1.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "LPC-L1_Debug.ld" -o "LPC-L1.axf"  ./src/INFO2_LIB.o ./src/cr_startup_lpc175x_6x.o ./src/crp.o ./src/inicializar.o ./src/mEST.o   -lLIBRE
+Memory region         Used Size  Region Size  %age Used
+       MFlash512:        4440 B       512 KB      0.85%
+        RamLoc32:         360 B        32 KB      1.10%
+        RamAHB32:          0 GB        32 KB      0.00%
+Finished building target: LPC-L1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "LPC-L1.axf"; # arm-none-eabi-objcopy -v -O binary "LPC-L1.axf" "LPC-L1.bin" ; # checksum -p LPC1769 -d "LPC-L1.bin";
+   text	   data	    bss	    dec	    hex	filename
+   4436	      4	    356	   4796	   12bc	LPC-L1.axf
+ 
+
+19:46:14 Build Finished (took 1s.722ms)
+

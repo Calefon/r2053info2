@@ -1,0 +1,14 @@
+19:43:50 **** Incremental Build of configuration Debug for project LPC L1 ****
+make all 
+Building file: ../src/INFO2_LIB.c
+Invoking: GCC C Compiler
+gcc -I"/home/ezequiel/LPCXpresso/workspace/LPC L1/inc" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/INFO2_LIB.d" -MT"src/INFO2_LIB.o" -o "src/INFO2_LIB.o" "../src/INFO2_LIB.c"
+../src/INFO2_LIB.c:15:31: fatal error: cr_section_macros.h: No existe el archivo o el directorio
+src/subdir.mk:24: fallo en las instrucciones para el objetivo 'src/INFO2_LIB.o'
+ #include <cr_section_macros.h>
+                               ^
+compilation terminated.
+make: *** [src/INFO2_LIB.o] Error 1
+
+19:43:51 Build Finished (took 357ms)
+

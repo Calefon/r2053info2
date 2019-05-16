@@ -1,0 +1,31 @@
+#ifdef __USE_CMSIS
+#include "LPC17xx.h"
+#endif
+
+#include <cr_section_macros.h>
+
+#include <stdio.h>
+
+#include <xyz_timer.h>
+
+#include <xyz_io.h>
+
+#include <xyz_base.h>
+
+enum {MCIERRE = 1, MAPERT = 2, SENOUT = 1, SENIN = 2, FC_CERR = 3, FC_AB = 4};
+enum {CERRADO = 0, ABRIENDO = 1, ABIERTO = 2, CERRANDO = 3};
+
+void Inicializar(void){
+	while(1){
+		while(!Teclado(FC_CERR) && !(Dig_Inputs(SENOUT) || Dig_Inputs(SENIN)) ){
+			Relay(MCIERRE, ON);
+		}
+		if(Teclado(FC_CERR)){
+			Relay(MCIERRE, OFF);
+			return;
+		}
+		while(Dig_Inputs(SENOUT) || Dig_Inputs(SENIN)){
+			Relay(MAPERT, ON)
+		}
+	}
+}
